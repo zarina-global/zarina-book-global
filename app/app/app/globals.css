@@ -1,0 +1,35 @@
+/* Zarina Global Gnostic — Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f9;
+  color: #222;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #666;
+}
